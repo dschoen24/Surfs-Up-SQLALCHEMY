@@ -12,7 +12,7 @@ I used Python and SQLAlchemy to do some basic climate analysis and data explorat
 •	I then loaded the query results into a Pandas DataFrame and sorted the DataFrame values by date.
 •	I plot these results using the DataFrame plot method.
 
-My results for the precipitation data can be foound here: https://github.com/dschoen24/sqlalchemy-challenge/
+My results for the precipitation data can be foound here: https://github.com/dschoen24/sqlalchemy-challenge/blob/main/Images/precip_analysis.png
 
 **Station Analysis**
 •	I designed a query to calculate the total number of stations present in the dataset provided.
@@ -23,7 +23,7 @@ My results for the precipitation data can be foound here: https://github.com/dsc
   o	I filtered by the station with the highest number of observations and queried the last 12 months of temperature observation data for this station.
   o	I then plot the results as a histogram.
 
-My results for the station analysis can be found here: https://github.com/dschoen24/sqlalchemy-challenge/
+My results for the station analysis can be found here: https://github.com/dschoen24/sqlalchemy-challenge/blob/main/Images/temp_vs_freq_histogram.png
 
 Now that I have completed my initial analysis, I designed a Flask API based on the queries that I have just developed.
 
@@ -35,7 +35,7 @@ Now that I have completed my initial analysis, I designed a Flask API based on t
 •  I used a function called calc_temps that will return the minimum, average, and maximum temperatures for the date range of my trip compared to the previous year.
 •  Once I had these calvulations, I then ploted the min, avg, and max temperature as a bar chart.
 
-My results can be found here: https://github.com/dschoen24/sqlalchemy-challenge/
+My results can be found here: https://github.com/dschoen24/sqlalchemy-challenge/blob/main/Images/bonus_trip_avg_temp.png
 
 **Daily Rainfall Average**
 Now that I have an idea of the temperature, I will check to see what the rainfall has been, since I don't want it to rain the whole time I am there
@@ -52,7 +52,7 @@ Now that I have an idea of the temperature, I will check to see what the rainfal
 •	I then loaded the list of daily normals into a Pandas DataFrame and set the index equal to the date.
 •	I used Pandas to plot an area plot for these daily normals.
 
-My results can be foound here: https://github.com/dschoen24/sqlalchemy-challenge/
+My results can be found here: https://github.com/dschoen24/sqlalchemy-challenge/blob/main/Images/bonus_daily_temp_normals.png
 
 
 
