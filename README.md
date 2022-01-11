@@ -1,4 +1,4 @@
-# sqlalchemy-challenge
+# SQLALCHEMY
 
 **Surfs Up!**
 
